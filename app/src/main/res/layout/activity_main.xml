@@ -1,39 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.example.jie.read.CustomViewGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-
-    <!--<com.example.jie.read.CustomTitleView-->
-        <!--android:layout_width="200dp"-->
-        <!--android:layout_height="100dp"-->
-        <!--android:layout_centerInParent="true"-->
-        <!--android:padding="10dp"-->
-        <!--app:titleText="3712"-->
-        <!--app:titleTextColor="#ff0000"-->
-        <!--app:titleTextSize="40sp" />-->
-
-    <com.example.jie.read.CustomImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    android:background="#D6D6D6"
+    >
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_margin="10dp"
-        android:padding="10dp"
-        app:image="@drawable/ic_launcher"
-        app:imageScaleType="center"
-        app:mtitleText="hello andorid ! "
-        app:mtitleTextColor="#ff0000"
-        app:mtitleTextSize="30sp" />
+        android:background="#000000"
+        />
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:background="#000000"
+        />
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:background="#000000"
+        />
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:background="#000000"
+        />
 
-    <!--<com.example.jie.read.CustomImageView-->
-        <!--android:layout_width="100dp"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_margin="10dp"-->
-        <!--android:padding="10dp"-->
-        <!--app:image="@drawable/ic_launcher"-->
-        <!--app:imageScaleType="center"-->
-        <!--app:mtitleText="helloworldwelcome"-->
-        <!--app:mtitleTextColor="#00ff00"-->
-        <!--app:mtitleTextSize="20sp" />-->
-</LinearLayout>
+</com.example.jie.read.CustomViewGroup>
+
+
+
+
+
+
